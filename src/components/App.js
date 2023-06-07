@@ -27,7 +27,7 @@ function App(){
                 {
                     skills.map((element)=>{
                         console.log('in add skill');
-                        return <li>{element}</li>
+                        return (<li>{element}</li>)
                     })
                 }
             </ul>
